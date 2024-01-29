@@ -1,0 +1,32 @@
+.display{
+   display: inline-block;
+   /* display: inline; */
+   /* display: block; */
+   border: 2px solid rgb(46, 21, 185);
+}
+
+
+span{
+    background-color: rgb(189, 0, 32);
+    color: bisque;
+    
+}
+
+.decoretion{
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2rem;
+    
+}
+
+/* ol{
+    width: 40px;
+    background-color: red;
+   
+
+}
+li{
+    text-decoration: none;
+    background-color: yellow;
+} */

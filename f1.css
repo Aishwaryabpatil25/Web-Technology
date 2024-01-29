@@ -1,0 +1,79 @@
+
+body{
+    background-color: white;
+}
+
+header{
+    color: blue;
+    font-size:25px;
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 300;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-left: 440px;
+    margin-top: -220px;
+}
+.input{
+    margin-top: 25px;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.button{
+    height: 40px;
+    width: 366px;
+    font-size: 19px;
+    padding: 7px;
+    padding-left: 90px;
+    padding-right: ;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: blue;
+}
+
+
+.forget{
+    color:blue;
+    
+}
+
+.horizantal{
+    
+    width: 350px;
+    margin-left: 45px;
+}
+
+.create{
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 32px;
+    padding-right: 50px;
+    padding-top: 14px;
+}
+
+
+.create-background{
+    height: 250px;
+    width: 300px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.center{
+    margin-left:25px ;
+}
+
+

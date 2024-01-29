@@ -1,0 +1,31 @@
+body{
+    background-color: pink;
+    transform: translate(50px,50px);
+}
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+
+  @keyframes animation{ 
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: red;
+    } 
+}
+
+ @keyframes animation{
+    0%{background-color: blue; top:0px; left: 0px}
+    25%{background-color: red;top:0px; left:100px}
+    50%{background-color: pink;top:100px; left:100px}
+    75%{background-color: yellow;top:100px; left:0px}
+    100%{background-color: aqua; top:100px; left: 0px;}
+ }

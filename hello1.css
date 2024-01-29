@@ -1,0 +1,66 @@
+.image{
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    opacity: 0.4;
+
+    
+}
+.text{
+    position: relative;
+    color:yellow;
+    font-weight: 100px;
+    font-size: xx-large;
+}
+.transform{
+    margin-top: 250px; 
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 157);
+    transform: rotate(60deg);
+    margin-left: 60px;
+    font-size: x-large;
+}
+.translate{
+    transform: translate(10px,20px);
+    margin-left: 60px;
+    font-size: large;
+   
+}
+.scale{
+    margin-top: 98px;  
+    height:50px;
+    width: 60px;
+    background-color: aqua;
+    transform: scale(2,4);
+    font-size: small;
+    margin-left: 60px;
+}
+
+.scalex{
+    margin-top: 98px; 
+     width:50px ;
+     height: 50px;
+     background-color:greenyellow ;
+     transform: scaleX(4);
+     font-size: small;
+     margin-left: 80px;
+}
+.skew{
+    margin-top: 40px; 
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transform: skew(6deg,10deg);
+    margin-left: 60px;
+    font-size: large;
+}
+.rotatex{
+    margin-top: 10px; 
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    transform:rotateX(50deg)
+    margin-left: 60px;
+    font-size:large;
+}
